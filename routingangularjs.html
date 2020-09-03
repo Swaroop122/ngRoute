@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+<script src= 
+"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"> 
+</script> 
+<script src= 
+"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"> 
+</script> 
+<script src="myApp.js"></script>
+<!--<script src="myCtrl.js"></script> -->
+
+<body ng-app="myApp" ng-controller="myCtrl"> 
+
+<p><a href="#/!"> 
+Main</a></p> 
+
+<a href="#!courses">Courses@spektra</a> 
+<br> 
+<a href="#!internships">Internships@spektra</a> 
+ 
+
+<div>
+{{ firstName + " " + lastName }}
+</div>
+<div ng-view></div>
+
+
+
+</body> 
+</html> 
